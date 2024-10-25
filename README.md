@@ -1,5 +1,3 @@
-# genai
-
 
 Gen AI Guide
 
@@ -29,7 +27,7 @@ Generative AI Documentation
      - [Loss Functions and Optimization Techniques](#loss-functions-and-optimization-techniques)
    - [Autoencoders](#autoencoders)
      - [Basic Autoencoders](#basic-autoencoders)
-     - [Variational Autoencoders (VAEs)](#variational-autoencoders-vaes)
+     - [Variational Autoencoders (VAEs)](#variational-autoencoders)
      - [Applications of Autoencoders](#applications-of-autoencoders)
    - [Generative Adversarial Networks (GANs)](#generative-adversarial-networks)
      - [GAN Architecture](#gan-architecture)
@@ -45,7 +43,7 @@ Generative AI Documentation
      - [Basics of Diffusion Processes](#basics-of-diffusion-processes)
      - [Denoising Diffusion Probabilistic Models (DDPM)](#denoising-diffusion-probabilistic-models-ddpm)
      - [Applications of Diffusion Models](#applications-of-diffusion-models)
-   - [Recurrent Neural Networks (RNNs)](#recurrent-neural-networks-rnns)
+   - [Recurrent Neural Networks (RNNs)](#basic-rnns)
      - [Basic RNNs](#basic-rnns)
      - [Long Short-Term Memory (LSTM)](#long-short-term-memory-lstm)
      - [Applications of RNNs in Generative AI](#applications-of-rnns-in-generative-ai)
@@ -134,7 +132,7 @@ Generative AI Documentation
     
 ![My Local Image](Images/fig_1.jpeg)
 
-<p align="center"><i>Figure Courtesy: https://community.aws/</i></p>
+<p align="center"><i>Image Courtesy: https://community.aws/</i></p>
 
 
 
@@ -220,7 +218,7 @@ AI Agents (1993-2011):
 ## **Applications of AI:** 
 ![My Local Image](Images/fig_2.jpeg)
 
-<p align="center"><i>Figure Courtesy: https://researchgate.net/</i></p>
+<p align="center"><i>Image Courtesy: https://researchgate.net/</i></p>
 
 AI has transformative applications across industries
 
@@ -465,13 +463,13 @@ Generative AI finds applications in diverse fields:
 
 ### 
 
-### 2. Fundamental Concepts
+### Fundamental Concepts
 
 #### Mathematics for Machine Learning
 
 ![My Local Image](Images/fig_3.jpeg)
 
-<p align="center"><i>Figure Courtesy: https://medium.com/</i></p>
+<p align="center"><i>Image Courtesy: https://medium.com/</i></p>
 
 ### [Linear Algebra](https://www.javatpoint.com/linear-algebra-for-machine-learning)**:**
 
@@ -815,7 +813,7 @@ the output of a neuron.
 ![My Local Image](Images/fig_4.jpeg)
 
 <p align="center"><i>Common Loss functions - 
-Figure Courtesy: https://geeksforgeeks.org/</i></p>
+Image Courtesy: https://geeksforgeeks.org/</i></p>
 
 
 -   **Loss Functions:** Objective functions that quantify the model\'s
@@ -848,7 +846,7 @@ Figure Courtesy: https://geeksforgeeks.org/</i></p>
 ![My Local Image](Images/fig_5.jpeg)
 
 <p align="center"><i>Autoencoders - 
-Figure Courtesy: https://medium.com/</i></p>
+Image Courtesy: https://medium.com/</i></p>
 
 Autoencoders are a specialized class of algorithms that can learn
 efficient representations of input data with no need for labels. It is a
@@ -866,7 +864,8 @@ rebuilds the initial input. For the network to gain meaningful patterns
 in data, a process of encoding and decoding facilitates the definition
 of essential features.
 
-### **Basic Autoencoders:** Autoencoders are neural networks designed to
+### **Basic Autoencoders** 
+Autoencoders are neural networks designed to
 learn efficient representations of data:
 
 -   **Encoder:** Network that compresses input data into a latent space
@@ -878,8 +877,8 @@ learn efficient representations of data:
 -   **Applications:** Dimensionality reduction, anomaly detection, and
     denoising data.
 
-### **Variational Autoencoders (VAEs):** VAEs extend basic autoencoders by
-introducing probabilistic components:
+### **Variational Autoencoders** 
+VAEs extend basic autoencoders by introducing probabilistic components:
 
 -   **Probabilistic Latent Space:** Represents data as a probability
     distribution, enabling generation of new data samples.
@@ -891,8 +890,8 @@ introducing probabilistic components:
 -   **Applications:** Image generation, data synthesis, and
     representation learning in unsupervised settings.
 
-### **Applications of Autoencoders:** Autoencoders find applications in
-various domains:
+### **Applications of Autoencoders:** 
+Autoencoders find applications in various domains:
 
 -   **Anomaly Detection:** Identifying rare events or outliers in data
     that deviate from normal patterns.
@@ -908,7 +907,7 @@ various domains:
 ![My Local Image](Images/fig_6.jpeg)
 
 <p align="center"><i>Generative Adversarial Networks - 
-Figure Courtesy: https://medium.com/</i></p>
+Image Courtesy: https://medium.com/</i></p>
 
 #### GAN Architecture
 
@@ -946,18 +945,18 @@ Various GAN architectures address specific tasks and challenges:
 -   **CycleGAN:** Unpaired image-to-image translation, learning mappings
     between different domains without paired examples.
 
-### **3. Generative AI Techniques**
+### **Generative AI Techniques**
 
 Generative AI techniques encompass a range of models and methods that
 can generate new data samples similar to the training data. Here\'s an
 elaboration on the key techniques and their applications:
 
-###  [**Transformer Models**](https://towardsdatascience.com/transformers-141e32e69591)
+###  [**Transformer Models**](https://towardsdatascience.com/transformers-141e32e69591/)
 
 ![My Local Image](Images/fig_7.jpeg)
 
 <p align="center"><i>Transformer Models - 
-Figure Courtesy: https://nvidia.com/</i></p>
+Image Courtesy: https://nvidia.com/</i></p>
 
 
 ### [Attention Mechanism:](https://www.geeksforgeeks.org/ml-attention-mechanism/)
@@ -994,7 +993,7 @@ for capturing long-range dependencies within the data.
         model to jointly attend to information from different
         representation subspaces.
 
-### **[BERT and GPT Series](https://blog.invgate.com/gpt-3-vs-bert):**
+### **[BERT and GPT Series](https://blog.invgate.com/gpt-3-vs-bert/):**
 
 -   **BERT (Bidirectional Encoder Representations from Transformers):**
 
@@ -1020,7 +1019,7 @@ for capturing long-range dependencies within the data.
     -   **Application:** Effective for text generation, dialogue
         systems, and content creation.
 
-### [Applications in NLP](https://www.analyticsvidhya.com/blog/2019/06/understanding-transformers-nlp-state-of-the-art-models/):**
+### [Applications in NLP](https://www.analyticsvidhya.com/blog/2019/06/understanding-transformers-nlp-state-of-the-art-models/):
 
 -   **Language Translation:**
 
@@ -1061,7 +1060,7 @@ for capturing long-range dependencies within the data.
 ![My Local Image](Images/fig_8.jpeg)
 
 <p align="center"><i>Diffusion Processes - 
-Figure Courtesy: https://lilianweng.github.io/</i></p>
+Image Courtesy: https://lilianweng.github.io/</i></p>
 
 
 ### **Basics of Diffusion Processes:**
@@ -1115,12 +1114,12 @@ time and can be applied to generative tasks.
     -   **Application:** Critical for video editing, surveillance, and
         autonomous driving.
 
-###  [**Recurrent Neural Networks (RNNs)**](https://aws.amazon.com/what-is/recurrent-neural-network/#:~:text=A%20recurrent%20neural%20network%20(RNN,a%20specific%20sequential%20data%20output.)
+####  [**Recurrent Neural Networks**](https://aws.amazon.com/what-is/recurrent-neural-network/#:~:text=A%20recurrent%20neural%20network%20(RNN,a%20specific%20sequential%20data%20output./))
 
 ![My Local Image](Images/fig_9.jpeg)
 
 <p align="center"><i>Recurrent Neural Networks - 
-Figure Courtesy: https://medium.com/</i></p>
+Image Courtesy: https://medium.com/</i></p>
 
 
 ### **Basic RNNs:**
@@ -1213,7 +1212,7 @@ Figure Courtesy: https://medium.com/</i></p>
 ![My Local Image](Images/fig_10.jpeg)
 
 <p align="center"><i>Training Generative Models - 
-Figure Courtesy: https://shopdev.co/</i></p>
+Image Courtesy: https://shopdev.co/</i></p>
 
 
 Training generative models involves a series of steps and considerations
@@ -1409,7 +1408,7 @@ high-quality outputs. Here's an elaboration on each component:
     -   **Examples:** Evaluating image quality in GAN-generated images
         or coherence in generated text by models like GPT.
 
-### 5. Essential Tools and Frameworks
+### Essential Tools and Frameworks
 ### Programming Languages
 ### [**Python Basics**](https://www.geeksforgeeks.org/python-basics/)
 
@@ -1937,7 +1936,7 @@ high-quality outputs. Here's an elaboration on each component:
 ![My Local Image](Images/fig_11.jpeg)
 
 <p align="center"><i>Few-Shot Learning - 
-Figure Courtesy: https://www.v7labs.com/</i></p>
+Image Courtesy: https://www.v7labs.com/</i></p>
 
 #### Learning with Limited Data
 
@@ -1991,7 +1990,7 @@ Figure Courtesy: https://www.v7labs.com/</i></p>
 ![My Local Image](Images/fig_12.jpeg)
 
 <p align="center"><i>Zero-Shot Learning - 
-Figure Courtesy: https://encord.com/</i></p>
+Image Courtesy: https://encord.com/</i></p>
 
 
 #### Knowledge Transfer
@@ -2103,7 +2102,7 @@ Figure Courtesy: https://encord.com/</i></p>
 
 <p align="center"><i>
 Fine-Tuning Pre-trained Models - 
-Figure Courtesy: https://medium.com/</i></p>
+Image Courtesy: https://medium.com/</i></p>
 
 
 #### Adaptation Strategies
@@ -2711,14 +2710,15 @@ automating complex tasks. Here\'s an in-depth look at its applications:
 
 <p align="center"><i>
 Gen AI Models Evolution - 
-Figure Courtesy: https://medium.com/</i></p>
+Image Courtesy: https://medium.com/</i></p>
 
 
 ![My Local Image](Images/fig_15.jpeg)
 
 <p align="center"><i>
 Gen AI Models - 
-Figure Courtesy: https://medium.com/</i></p>
+Image Courtesy: https://medium.com/</i></p>
+
 ## Text Generation Models
 
 ### GPT-4
@@ -3149,6 +3149,6 @@ Figure Courtesy: https://medium.com/</i></p>
 -   Online Courses and Tutorials
 
 [Udemy
-Course](https://capgemini.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/)
+Course](https://udemy.com/course/data-science-and-machine-learning-with-python-hands-on/)
 
 ### 
